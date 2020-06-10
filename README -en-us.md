@@ -1,7 +1,7 @@
 # Ecoleta
 [README (en-us)](README-en-us.md)
 
-Aplicação web e mobile para conectar pessoas e pontos de coleta de reciclagem.
+Web/mobile application to connect people to recycling collection points.
 
 ![Homepage web](.github/homepage.png)
 
@@ -12,11 +12,11 @@ Aplicação web e mobile para conectar pessoas e pontos de coleta de reciclagem.
 ![Homepage app](.github/detail-app.png)
 
 
-## Requisitos
+## Requirements
 
 - [NodeJS 12.*](https://nodejs.org/en/download/)
 
-## Tecnologias/Frameworks
+## Technologies/Frameworks
 
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://github.com/facebook/react)
@@ -35,35 +35,36 @@ Aplicação web e mobile para conectar pessoas e pontos de coleta de reciclagem.
 
 - *Clean Architecture* -->
 
-## Execução API
+## API Execution
 
-Esse projeto utiliza SQLite, para criar o banco e popular com seed execute os comandos na pasta backend:
+This project uses SQLite, to create the database and populate with data, run these commands at the backend folder.
 ```
 npm run knex:migrate
 npm run knex:seed
 ```
-Para executar a API:
+Run the API:
 
 ```shell script
 npm run dev
 ```
-## Execução Web
+## Run the React Web app
 
 ```
 npm run start
 ```
-## Execução App (React-native)
-Para o react-native foi utilizado o framework Expo, portanto ao executar o comando abaixo sera aberta uma pagina para executar no emulador, dispositivo fisico via cabo ou lendo o QR Code indicado.
+## Mobile App (React-native)
+The Expo framework was used to facilitate the development,
+therefore, run the command below to open a web page so that you can connect the app with an amulator or your physical device using USB or QR Code.
 ```
 npm run start
 ```
-## Endpoints API
+## API endpoints
 
 - URL: http://localhost:3333/
 - Points: http://localhost:3333/points
 - Items: http://localhost:3333/items
 
-## Endpoints Web
+## Web endpoints 
 
 - URL: http://localhost:3333/
 - Points: http://localhost:3333/create-point
