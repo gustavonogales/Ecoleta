@@ -65,5 +65,5 @@ npm run start
 
 ## Endpoints Web
 
-- URL: http://localhost:3333/
-- Points: http://localhost:3333/create-point
+- URL: http://localhost:3000/
+- Points: http://localhost:3000/create-point
