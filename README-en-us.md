@@ -1,7 +1,7 @@
 # Ecoleta
-[README (en-us)](README-en-us.md)
+[README (pt-BR)](README.md)
 
-Web/mobile application to connect people to recycling collection points.
+Web/mobile application to connect people to recycling points.
 
 ![Homepage web](.github/homepage.png)
 
@@ -35,7 +35,7 @@ Web/mobile application to connect people to recycling collection points.
 
 - *Clean Architecture* -->
 
-## API Execution
+## How to run the API
 
 This project uses SQLite, to create the database and populate with data, run these commands at the backend folder.
 ```
@@ -47,14 +47,14 @@ Run the API:
 ```shell script
 npm run dev
 ```
-## Run the React Web app
+## How to run the React Web app
 
 ```
 npm run start
 ```
-## Mobile App (React-native)
+## How to run the mobile App (React-native)
 The Expo framework was used to facilitate the development,
-therefore, run the command below to open a web page so that you can connect the app with an amulator or your physical device using USB or QR Code.
+therefore, run the command below to open a web page so that you can connect the app with an emulator or your physical device using USB or QR Code.
 ```
 npm run start
 ```
