@@ -64,6 +64,8 @@ npm run start
 - Points: http://localhost:3333/points
 - Items: http://localhost:3333/items
 
+Obs: It is also available in this repository the json file to import into [Insomnia](https://insomnia.rest/download/)
+
 ## Web endpoints 
 
 - URL: http://localhost:3000/
