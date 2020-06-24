@@ -1,7 +1,7 @@
 # Ecoleta
 [README (pt-BR)](README.md)
 
-Web/mobile application to connect people to recycling points.
+Web/mobile application that connect people to recycling points.
 
 ![Homepage web](.github/homepage.png)
 
